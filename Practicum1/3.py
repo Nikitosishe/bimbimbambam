@@ -1,0 +1,1 @@
+print("Привет Python!\n", sep=' ')
