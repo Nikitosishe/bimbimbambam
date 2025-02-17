@@ -1,2 +1,2 @@
 N, M = map(int,input().split())
-print(int(M/N))
+print(M//(N+1))
