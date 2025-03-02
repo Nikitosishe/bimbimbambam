@@ -1,0 +1,5 @@
+seconds1 = int(input())
+hours = int(seconds1/3600)
+minutes = int((seconds1 - hours * 3600)/60)
+seconds2 = int(seconds1 - hours*3600 - minutes*60)
+print(hours, "часов", minutes, "минут", seconds2, "секунд")

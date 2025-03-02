@@ -1,0 +1,10 @@
+import math
+side1 = int(input())
+side2 = int(input())
+side3 = int(input())
+angle1 = math.degrees(math.acos((side2**2 + side3**2 - side1**2)/(2 * side2 * side3)))
+angle2 = math.degrees(math.acos((side1**2 + side3**2 - side2**2)/(2 * side1 * side3)))
+angle3 = math.degrees(math.acos((side2**2 + side1**2 - side3**2)/(2 * side1 * side2)))
+print(angle1)
+print(angle2)
+print(angle3)
