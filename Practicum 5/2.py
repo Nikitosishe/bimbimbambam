@@ -22,8 +22,10 @@ trt.end_fill()
 trt.penup()
 trt.setpos(xc - r - 20, yc - r - 20)
 trt.pendown()
-if (xc - x) ** 2 + (yc - y) ** 2 > r ** 2
+if (xc - x) ** 2 + (yc - y) ** 2 > r ** 2:
     trt.write("точка вне окружности")
+elif (xc - x) ** 2 + (yc - y) ** 2 == r ** 2:
+    trt.write("точка на окружности")
 else:
     trt.write("точка внутри окружности")
 trt.mainloop()
