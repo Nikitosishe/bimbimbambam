@@ -8,4 +8,4 @@ elif day_2 == day_3 and day_2 != day_1:
 elif day_2 == day_3 and day_2 == day_1:
     print(3)
 else:
-    print(1)
+    print(0)
