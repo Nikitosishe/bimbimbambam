@@ -7,5 +7,7 @@ elif day_2 == day_3 and day_2 != day_1:
     print(2)
 elif day_2 == day_3 and day_2 == day_1:
     print(3)
+elif day_1 == day_3 and day_1 != day_2:
+    print(2)
 else:
     print(0)
