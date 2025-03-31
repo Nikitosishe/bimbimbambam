@@ -1,8 +1,10 @@
-import math
-print('Введите число')
-n = int(input())
-a = int(math.sqrt(n))
-if a * a == n:
-    print('Это полный квадрат')
-else:
-    while input() 
+import math as mth
+while True:
+    number = float(input('Введите число: '))
+    root = mth.sqrt(number)
+
+    if root == int(root):
+        print(f'Это число является полным квадратом')
+        break
+    else:
+        print(f'Число не является полным квадратом, попробуйте ещё раз')
