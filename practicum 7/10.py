@@ -3,5 +3,5 @@ x = 0
 while (t := float(input())) != 0:
     if t < x:
         counter += 1
-x = t
+    x = t
 print(counter)
